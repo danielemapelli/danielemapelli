@@ -1,62 +1,119 @@
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1800px) {
     
     footer p{
-        margin-right: 80px;
-        font-size: 35px;
-        line-height: 40px;
-        
-        margin-bottom: 5px;
-    }
-
+        font-size: 25px;
+        line-height: 30px;
+}
+    
    img.img-cover{
-        width:300px;
+        width:280px;
     }
     
     video.img-cover{
-        width:300px;
-    }
-    
-    h4.tit-small {
-    font-size: 25px;
-    top: 7px;
-    left: 8px;
-    width: 100%;
-    line-height: 28px;
+        width:280px;
     }
 
-h4.tit-type {
-    font-size: 25px;
-    position: absolute;
-    color: black;
-    top: 45px;
-    left: 8px;
-    width: 95%;
-    line-height: 28px;
-    letter-spacing: 0.1px;
-    font-style: italic;
-
-    }
-    
-    h4.tit-year {
-   font-size: 41px;
-    position: absolute;
-    color: black;
-    bottom: 6px;
-    left: 8px;
-    width: 95%;
-
-    letter-spacing: 0.1px;
-   
-  
-
-    }
 
     
     #progetti {
         margin-top:30px;
     }
+    
+   
+    
+  a #ball-radius h3 {
+        font-size: 45px;
 
+    }
+    
+    a #ball-radius-cv h3 {
+        font-size: 45px;
+
+    }
+    
+    #ball #ball-radius{
+        border-radius:100%;
+        width:90px;
+        height: 90px;
+        }
+    
+    #ball #ball-radius-cv{
+        border-radius:100%;
+        width:90px;
+        height: 90px;
+        }
+
+    a #ball-radius #ig {
+        line-height: 92px;
+        left:23px;
+        letter-spacing: -1px;
+    }
+    
+    a #ball-radius #lk {
+    line-height: 93px;
+        left:22px;
+        letter-spacing: -0.5px;
+    }
+    
+    a #ball-radius #be {
+        line-height: 92px;
+        left:14px;
+        letter-spacing: -1.5px;
+    }
+    
+    a #ball-radius-cv #cv {
+   line-height: 93px;
+    padding-left:12px;
+      
+    }
+    
+    a #ball-radius-cv #email {
+    padding-left:20px;
+    font-size:47px;
+    line-height: 80px;
+        
+    }
+    
+    .overlay .tit-small {
+    font-size: 23px;
+    position: absolute;
+    color: white;  
+    top: 7px;
+    left: 8px;
+    width: 100%;
+    line-height: 25px;
+    font-weight: 400;
+    }
+
+.overlay .tit-type {
+    font-size: 23px;
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 8px;
+    width: 95%;
+    line-height: 25px;
+    letter-spacing: 0.1px;
+    
+
+    }
+
+.tit-year {
+   font-size: 34px;
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    left: 8px;
+    width: 95%;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+   
+  
+
+    }
+    
+ 
 }
 
 
@@ -71,44 +128,52 @@ display:none;
     }
     
 #ball-radius h3 {
-        font-size: 45px;
+        font-size: 35px;
         margin: 0 auto;
         
     }
    
     
     #ball-radius-cv h3 {
-        font-size: 45px;
+        font-size: 35px;
         margin: 0 auto;
     }
     
     #ball li{
         border-radius:100%;
-        width:90px;
-        height: 90px;
+        width:70px;
+        height: 70px;
         }
     
      
     #ball-radius #ig {
-        line-height: 89px;
+        line-height: 69px;
+        left:17px;
+        letter-spacing: -1px;
     }
     
     #ball-radius #lk {
-    line-height: 91px;
+    line-height: 72px;
+        left:17.5px;
+        letter-spacing: -0.5px;
     }
     
     #ball-radius #be {
+        line-height: 71px;
+        left:12.5px;
+        letter-spacing: -1.5px;
     }
     
-    #ball #cv {
-    line-height: 25x;
-    left:13px;
+    #ball-radius-cv #cv {
+   line-height: 74.5px;
+    padding-left:10px;
+      
     }
     
-    li #email {
-    padding-left:20px;
-    font-size:47px;
-    line-height: 83px;
+    #ball-radius-cv #email {
+    padding-left:16px;
+    font-size:37px;
+    line-height: 68px;
         
     }
     
@@ -146,47 +211,57 @@ display:none;
 display:none;
     }
     
+    
 #ball-radius h3 {
-        font-size: 45px;
+        font-size: 35px;
         margin: 0 auto;
         
     }
    
     
     #ball-radius-cv h3 {
-        font-size: 45px;
+        font-size: 35px;
         margin: 0 auto;
     }
     
     #ball li{
         border-radius:100%;
-        width:90px;
-        height: 90px;
+        width:70px;
+        height: 70px;
         }
     
      
     #ball-radius #ig {
-        line-height: 89px;
+        line-height: 69px;
+        left:17px;
+        letter-spacing: -1px;
     }
     
     #ball-radius #lk {
-    line-height: 89px;
+    line-height: 72px;
+        left:17.5px;
+        letter-spacing: -0.5px;
     }
     
     #ball-radius #be {
+        line-height: 71px;
+        left:12.5px;
+        letter-spacing: -1.5px;
     }
     
-    #ball #cv {
-    line-height: 25x;
-    left:12px;
+    #ball-radius-cv #cv {
+   line-height: 74.5px;
+    padding-left:10px;
+      
     }
     
-    li #email {
-    padding-left:20px;
-    font-size:47px;
-    line-height: 83px;
+    #ball-radius-cv #email {
+    padding-left:16px;
+    font-size:37px;
+    line-height: 68px;
         
     }
+
     
 #ball-mobile {
         display:none;
@@ -217,13 +292,6 @@ display:none;
     #ball-mobile {
         display:block;
     }
-    .img-mobile img{
-        border: 2px solid black;
-    }
-    
-    .img-mobile video{
-        border: 2px solid black;
-    }
     
     footer {
         display:none;
@@ -232,11 +300,11 @@ display:none;
     header {
         margin-left:15px;
         margin-right:15px;
-        margin-top:110px;
+        margin-top:95px;
         max-width: 100%;
         font-size: 20px;
         line-height: 24px;
-        padding-bottom:15px;
+        padding-bottom:20px;
         display:block;
     }
     
@@ -246,11 +314,11 @@ display:none;
     
  
 .img-mobile img{
-    max-width:100%;
+    width:100%;
 }
     
     .img-mobile {
-         margin-bottom: 20px;
+         margin-bottom: 25px;
     }
     
     .img-mobile video {
@@ -261,7 +329,7 @@ display:none;
     
     #tit-mobile {
         font-size:20px;
-        line-height: 25px;
+        line-height: 24px;
         text-decoration: none;
         color:black;
         margin-top:5px;
@@ -274,6 +342,8 @@ display:none;
          font-style: italic;
          margin-top:1px;
     }
+    
+    
     
     
 
@@ -312,48 +382,46 @@ canvas {
 .anarchy {
   position: absolute;
   visibility: hidden;
-    border: 1.5px solid black;
-    
-    
-    
+    border: 0px solid black;
 }
 
 
-.anarchy:hover {
+.anarchy:hover{
  
-    border: 0px solid black;
+    border: 0px solid white;
     
 }
 
 
 /* Projects caption */
 .tit-small {
-    font-size: 22px;
+    font-size: 20px;
     position: absolute;
-    color: black;  
+    color: white;  
     top: 7px;
     left: 8px;
     width: 100%;
-    line-height: 24px;
+    line-height: 22px;
+    font-weight: 400;
     }
 
 .tit-type {
-    font-size: 22px;
+    font-size: 20px;
     position: absolute;
-    color: black;
+    color: white;
     top: 40px;
     left: 8px;
     width: 95%;
-    line-height: 24px;
+    line-height: 22px;
     letter-spacing: 0.1px;
-    font-style:italic;
+    
 
     }
 
 .tit-year {
    font-size: 34px;
     position: absolute;
-    color: black;
+    color: white;
     bottom: 5px;
     left: 8px;
     width: 95%;
@@ -370,10 +438,8 @@ canvas {
   bottom: 0;
   left: 0;
   right: 0;
-  
   opacity: 0;
-    mix-blend-mode:hard-light;
-    border: 1.5px solid black;
+
   
   
 }
@@ -381,6 +447,10 @@ canvas {
 .img-capt:hover .overlay {
   opacity: 1;
    
+}
+
+.img-capt:hover li {
+    width:30px;
 }
 
 
@@ -395,35 +465,41 @@ canvas {
 
 
 #ig-m {
-    left:17px;
-    line-height:70px;
+    left:15px;
+    line-height:65px;
+    letter-spacing: -1px;
 }
 
 #be-m {
-    left:11.5px;
-    line-height:71px;
+    left:10px;
+    line-height:67px;
+    letter-spacing: -1px;
 }
 
 #lk-m {
-    left:17px;
-    line-height:70px;
+    left:15px;
+    line-height:65px;
+    letter-spacing: -1px;
 }
 
 #cv-m {
-    left:10px;
-    line-height:70px;
+    left:8px;
+    line-height:67px;
+    letter-spacing: -2px;
 }
 
 #email-m {
     padding-left:13px;
-    line-height: 63px;
+    line-height: 59px;
+    
 }
 
 
 
 #email-m a{
     text-decoration: none;
-    color:black;
+    color:white;
+
     
     
 }
@@ -431,17 +507,16 @@ canvas {
 
 #ball-radius-m{
 border-radius:100%;
-width:70px;
-height: 70px;
-background-color:white;
+width:65px;
+height: 65px;
+background-color:#0014FF;
 margin: 0 auto;
-border: 1.5px solid black;
-color:black;
+border: 0px solid white;
+color:white;
 }
 
 #ball-radius-m:hover {
     background-color: black;
-    border: 1.5px solid black;
     color:white;
 }
 
@@ -457,7 +532,7 @@ color:black;
     }
     
     #ball-radius-cv-m #email-m {
-        font-size: 42px;
+        font-size: 37px;
     }
 
     
@@ -466,23 +541,25 @@ color:black;
 
 #ball-radius-m:hover {
     background-color: black;
-    border: 1.5px solid black;
+    border: 0px solid white;
     color:white;
 }
 
 #ball-radius-cv-m{
 border-radius:100%;
-width:70px;
-height: 70px;
+width:65px;
+height: 65px;
 margin: 0 auto;
-border: 1.5px solid black;
-background-color: white;   
+border: 0px solid white;
+background-color: #0014FF; 
+color:white;
 }
 
 
 
 #ball-radius-cv-m:hover {
     background-color: black;
+    border: 0px solid white;
     color:white;
 }
 
@@ -540,49 +617,41 @@ background-color: white;
 
 #ball-radius{
 border-radius:100%;
-background-color:white;
-color:black;
-border: 2px solid black;
+background-color:#0014FF;
+color:white;
+border: 0px solid black;
 }
 
-#ball-radius:hover {
-    background-color: black;
-    border: 2px solid black;
-    color:white;
-}
+
 
 #ball-radius-cv{
 border-radius:100%;
 width:95px;
 height: 95px;
 margin: 0 auto;
-background-color: white;   
-border: 2px solid black;
-color:black;
-    
+background-color: #0014FF;   
+border: 0px solid black;
+color:white;
+
 }
 
-
-
-#ball-radius-cv:hover {
-    background-color: black;
-    border: 2px solid black;
-    color: white;
-}
 
 
 
 
 footer {
     z-index: -1;
-    font-size: 28px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 25px;
     margin-left:20px;
     bottom: 0;
     position:fixed;
     max-width: 100%;
     margin-bottom:15px;
     margin-right:40px;
+    text-align: center;
+    left:0;
+    right:0;
     
    
 }
