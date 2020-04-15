@@ -235,8 +235,8 @@ margin-top:480px;
     .prj-contenuto {
     color: black;
     max-width:100%;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
     #name-prj i {
@@ -269,14 +269,14 @@ margin-top:480px;
     
     .img-singola {
     width: 100%;
-    margin-bottom:7px;
+    margin-bottom:0px;
     margin-top:7px;
     
 }
     
     #img-top {
-    margin-top:20px;
-    margin-bottom: 7px;
+    margin-top:15px;
+    margin-bottom: 0px;
     }
     
 
@@ -290,27 +290,27 @@ margin-top:480px;
     #imgd-1{
     float: left;
     margin-bottom:7px;
-    margin-top:7px;
+    margin-top:0px;
         width:100%;
 }
 
 #imgd-2{
     float: right;
     margin-bottom:7px;
-    margin-top:7px;
+    margin-top:0px;
     width:100%;
 }  
     
     #imgd-2-last{
     float: right;
-    margin-bottom:20px;
+    margin-bottom:15px;
     margin-top:10px;
         width:100%;
 } 
     
         #imgd-1-last{
     float: left;
-    margin-bottom:7px;
+    margin-bottom:0px;
     margin-top:7px;
             width:100%;
 } 
@@ -402,6 +402,7 @@ margin-top:480px;
     h1#home-f {
         font-size: 25px;
         padding-left: 20px;
+        padding-top:200px;
     }
     
     #name-prj {
@@ -416,11 +417,7 @@ margin-top:480px;
         margin-top: 10px;
 
     }
-    
-    #img-top {
-    margin-top:20px;
-    margin-bottom: 15px;
-    }
+
     
     span:hover h3#next {
     background-color:#fc0fc0;
