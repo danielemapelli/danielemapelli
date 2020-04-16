@@ -211,26 +211,6 @@ margin-top:15px;
 
 @media only screen and (max-width: 991.98px) {
     
-    div.prj-contenuto {
-
-margin-top:480px;
-
-    
-
-}
-    
-    #header-mob  {
-        display:none;
-    }
-
-    header h3 {
-        color:black;
-        
-    }
-    
-    #header {
-         margin-left:15px;
-    }
     
     .prj-contenuto {
     color: black;
@@ -239,34 +219,60 @@ margin-top:480px;
     padding-right: 15px;
 }
 
+    #header-mobile {
+        display:none;
+    }
+    
+    #next-appear {
+        display: none;
+    }
+    
     #name-prj i {
-    font-size:30px;
+    font-size:25px;
         font-weight:400;
         line-height: 25px;
         
         
+        
     }
-    #name-prj b {
-        font-size: 20px;
-        line-height: 25px;
-
- 
+    
+    div#allinea {
+        padding-left: 20px;
+            padding-top:95px;
+    }
+    h1#home-h {
+        font-size: 25px;
+        padding-left: 20px;
+    }
+    
+    h1#home-f {
+        font-size: 25px;
+        padding-left: 20px;
+        padding-top:200px;
     }
     
     #name-prj {
-        margin-top:5px;
+        margin-top:0px;
         margin-bottom: 15px;
     }
 
     .prj-contenuto-text {
-    font-size: 20px;
-    line-height: 25px;
-    margin-bottom:20px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom:10px;
         margin-top: 10px;
 
     }
+
     
+    span:hover h3#next {
+    background-color:#fc0fc0;
+    }
     
+    h3#back:hover{
+    background-color:#fc0fc0;
+    }
+
     .img-singola {
     width: 100%;
     margin-bottom:0px;
@@ -379,6 +385,10 @@ margin-top:480px;
     
     #next-appear {
         display: none;
+    }
+    
+    div.prj-contenuto {
+        margin-top:520px;
     }
     
     #name-prj i {
@@ -554,6 +564,7 @@ box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
     position:relative;
     z-index: 0;
     
+    
 
 }
 
@@ -601,6 +612,8 @@ header {
     padding-top:100px;
     z-index: -1;
     position: fixed;
+    color:white;
+    
 }
 
 
@@ -613,7 +626,7 @@ header {
     position: fixed;
     bottom:0;
     z-index: -1;
-    
+    color:white;
 }
 
 
@@ -630,6 +643,9 @@ header {
 
 }
 
-
+body {
+    background-color: #1c1c1c;
+    
+}
 
 
