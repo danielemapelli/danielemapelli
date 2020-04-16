@@ -205,7 +205,9 @@ margin-top:15px;
     margin-top: 20px;
         margin-bottom: 10px;
     }
-
+    footer #home-f {
+        padding-bottom: 25px;
+    }
 
 }
 
@@ -329,55 +331,9 @@ margin-top:15px;
    margin-bottom:15px; 
 }
 
-    header {
-        margin-left: 0px;
-       
-    }
-    
-    #header {
-        margin-left:0px;
-        
-    }
+   
     
    
-    header #back {
-    width:55px;
-    height: 55px;
-
-
-    }
-    
-    
-    header #back a {
-       text-align: center;
-        line-height: 55px;
-        padding-left: 10px;
-        font-size:35px;
-        
-    }
-    
-    header #next {
-    border-radius:100%;
-    width:55px;
-    height: 55px;
-    margin-left: 10px;
-        text-align: center;
-    }
-    
-    header #next a {
-        text-align: center;
-        line-height: 57px;
-        font-size:35px;
-       
-    }
-
-     header #header {
-        margin-left: 30px;
-    }
-
-    #next-appear {
-        display: none;
-    }
 }
 
 @media only screen and (max-width: 767.98px) {
@@ -408,8 +364,7 @@ margin-top:15px;
         position: relative;
         padding-left:15px;
         padding-bottom:15px;
-        
-    }
+ }
     h1#home-h {
         font-size: 25px;
         padding-left: 15px;
@@ -422,6 +377,7 @@ margin-top:15px;
         padding-bottom: 25px;
         padding-top:15px;
         padding-left: 15px;
+        
 
     }
     
@@ -452,7 +408,7 @@ margin-top:15px;
 
 
 body {
-    background-color: #1c1d1d;
+    background-color: white;
     width:100%;
     font-family: Arial, Helvetica, 'Roboto', sans-serif;
     margin:0 auto;
@@ -618,6 +574,7 @@ header {
     text-align: left;
     padding-left:30px;
     padding-bottom: 30px;
+    padding-top:30px;
     position: fixed;
     bottom:0;
     z-index: -1;
