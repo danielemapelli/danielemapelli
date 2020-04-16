@@ -239,6 +239,7 @@ margin-top:15px;
     div#allinea {
         padding-left: 20px;
             padding-top:95px;
+        position:absolute;
     }
     h1#home-h {
         font-size: 25px;
@@ -248,7 +249,8 @@ margin-top:15px;
     h1#home-f {
         font-size: 25px;
         padding-left: 20px;
-        padding-top:200px;
+        padding-top:25px;
+        
     }
     
     #name-prj {
@@ -388,7 +390,7 @@ margin-top:15px;
     }
     
     div.prj-contenuto {
-        margin-top:40px;
+        margin-top:0px;
     }
     
     #name-prj i {
@@ -402,41 +404,35 @@ margin-top:15px;
     
     div#allinea {
         padding-left: 20px;
-            padding-top:95px;
+        padding-top:75px;
         position: relative;
+        padding-left:15px;
+        padding-bottom:15px;
+        
     }
     h1#home-h {
         font-size: 25px;
-        padding-left: 20px;
+        padding-left: 15px;
+        padding-top:15px;
+        padding-bottom:15px;
     }
     
     h1#home-f {
         font-size: 25px;
-        padding-left: 20px;
-        padding-top:200px;
+        padding-bottom: 25px;
+        padding-top:15px;
+        padding-left: 15px;
+
     }
     
     #name-prj {
-        margin-top:0px;
         margin-bottom: 15px;
     }
 
-    .prj-contenuto-text {
-    font-size: 16px;
-    line-height: 21px;
-    margin-bottom:10px;
-        margin-top: 10px;
-
-    }
+  
 
     
-    span:hover h3#next {
-    background-color:#fc0fc0;
-    }
-    
-    h3#back:hover{
-    background-color:#fc0fc0;
-    }
+  
    
    
     
@@ -456,7 +452,7 @@ margin-top:15px;
 
 
 body {
-    background-color: white;
+    background-color: #1c1d1d;
     width:100%;
     font-family: Arial, Helvetica, 'Roboto', sans-serif;
     margin:0 auto;
@@ -479,7 +475,7 @@ header a{
 
 
 
-}
+
 
 #next{
     border: 0px solid black;
@@ -573,7 +569,7 @@ box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
     width:100%;
     text-align: left;
     padding-top:20px;
-    padding-left:30px;
+    padding-left:25px;
     position: fixed;
     padding-bottom:20px;
     background-color:white;
@@ -605,12 +601,13 @@ header {
 
 
 #allinea {
-     padding-left:30px;
+     padding-left:25px;
     padding-right:30px;
     padding-top:100px;
     z-index: -1;
     position: fixed;
     color:white;
+    background-color:#1c1c1c;
     
 }
 
@@ -620,11 +617,12 @@ header {
     width:100%;
     text-align: left;
     padding-left:30px;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     position: fixed;
     bottom:0;
     z-index: -1;
-    color:white;
+    color:black;
+    background-color:white;
 }
 
 
@@ -636,14 +634,7 @@ header {
     padding-left:450px;
     position: fixed;
     z-index: -2;
-
-
-
 }
 
-body {
-    background-color: #1c1c1c;
-    
-}
 
 
