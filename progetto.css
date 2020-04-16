@@ -388,7 +388,7 @@ margin-top:15px;
     }
     
     div.prj-contenuto {
-        margin-top:520px;
+        margin-top:40px;
     }
     
     #name-prj i {
@@ -403,6 +403,7 @@ margin-top:15px;
     div#allinea {
         padding-left: 20px;
             padding-top:95px;
+        position: relative;
     }
     h1#home-h {
         font-size: 25px;
@@ -447,10 +448,7 @@ margin-top:15px;
         display:none;
     }
     
-    div.prj-contenuto {
-        margin-top:520px;
-    }
-    
+   
 }
 
 
