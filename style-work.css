@@ -406,34 +406,35 @@ canvas {
     top: 7px;
     left: 8px;
     width: 100%;
-    line-height: 22px;
+    line-height: 21px;
     font-weight: 400;
     }
 
 .tit-type {
-    font-size: 20px;
+    font-size: 16px;
     position: absolute;
     color: white;
-    top: 33px;
+    top: 37px;
     left: 8px;
     width: 95%;
-    line-height: 22.5px;
+    line-height: 18px;
     letter-spacing: 0.1px;
     
 
     }
 
 .tit-year {
-   font-size: 34px;
+   font-size: 16px;
     position: absolute;
-    color: #EBFF00;
+    color: white;
     bottom: 5px;
     left: 8px;
     width: 95%;
-    line-height: 24px;
+    line-height: 18px;
     letter-spacing: 0.1px;
+    display:none;
    
-display:none;
+
   
 
     }
@@ -522,14 +523,14 @@ transition-duration: 0.1s;
 border-radius:100%;
 width:65px;
 height: 65px;
-background-color:#0AFF00;
+background-color:#ff1a00;
 margin: 0 auto;
 border: 0px solid white;
-color:white;
+color:black;
 }
 
 #ball-radius-m:hover {
-    background-color:#1c1c1c;
+   
     color:white;
 }
 
@@ -553,7 +554,7 @@ color:white;
 }
 
 #ball-radius-m:hover {
-    background-color: #1c1c1c;
+   
     border: 0px solid white;
     color:white;
 }
@@ -564,16 +565,16 @@ width:65px;
 height: 65px;
 margin: 0 auto;
 border: 0px solid white;
-background-color: #ff00ec; 
-color:white;
+background-color: #ff1a00; 
+color:black;
 }
 
 
 
 #ball-radius-cv-m:hover {
-    background-color:#1C1C1C;
-    border: 0px solid white;
     color:white;
+    border: 0px solid white;
+    
 }
 
 
@@ -630,21 +631,21 @@ color:white;
 
 #ball-radius{
 border-radius:100%;
-background-color:#0AFF00;
-color:white;
+background-color:#ff1a00;
+color:black;
 border: 0px solid black;
 }
 
 #ball-radius:hover {
  color:white;
-    background-color:#1C1C1C;
+
     transition-duration: 0.1s;
     
 }
 
 #ball-radius-cv:hover {
    color:white;
-    background-color:#1C1C1C;
+  
     transition-duration: 0.1s;
 }
 
@@ -653,9 +654,9 @@ border-radius:100%;
 width:95px;
 height: 95px;
 margin: 0 auto;
-background-color: #FF00EC;   
+background-color: #ff1a00;   
 border: 0px solid black;
-color:white;
+color:black;
     
 
 }

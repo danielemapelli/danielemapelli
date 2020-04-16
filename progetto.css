@@ -201,7 +201,7 @@ margin-top:10px;
     }
     
     body {
-      background-color: #1c1c1c;
+      background-color: white;
     }
     
 
@@ -327,7 +327,7 @@ margin-top:10px;
    margin-bottom:15px; 
 }
  body{
-      background-color: #1c1c1c;
+      background-color: white;
     }
    
     
@@ -336,7 +336,7 @@ margin-top:10px;
 
 @media only screen and (max-width: 767.98px) {
      body{
-      background-color: white;
+      background-color: #ff1a00;
     }
     
     #header-mobile {
@@ -563,8 +563,8 @@ header {
     padding-top:90px;
     z-index: -1;
     position: fixed;
-    color:white;
-    background-color:#1c1c1c;
+    color:black;
+    background-color:white;
     
 }
 
@@ -573,25 +573,17 @@ header {
     font-size: 30px;
     width:100%;
     text-align: left;
-    padding-left:30px;
+    padding-left:25px;
     padding-bottom: 30px;
     padding-top:30px;
     position: fixed;
     bottom:0;
     z-index: -1;
     color:black;
-    background-color:white;
+    background-color:#ff1a00;
+    
 }
 
 
-#next-f {
-   font-size: 30px;
-    width:100%;
-    text-align: left;
-    bottom:0;
-    padding-left:450px;
-    position: fixed;
-    z-index: -2;
-}
 
 
