@@ -119,8 +119,6 @@
 
 
 @media only screen and (min-width: 992px) {
-    
-    
     .progetti-mobile {
         display:none;
     }
@@ -180,7 +178,7 @@ display:none;
     }
     
 #ball-mobile {
-        display:none;
+        opacity:0;
     }
     
     #ball {
@@ -282,8 +280,9 @@ display:none;
     }
     
     .progetti-mobile {
-        display:inline-block;
-        position:relative;
+        display:block;
+        margin-left: 15px;
+        margin-right: 15px;
     }
     
     #img-mobile-1 {
@@ -303,22 +302,14 @@ display:none;
         margin-right:15px;
         margin-top:95px;
         max-width: 100%;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 24px;
         padding-bottom:20px;
         display:block;
-        position:fixed;
-        z-index: -1;
-
     }
     
     header #p-email {
         margin-top:10px;
-    }
-    
-    header #p-email a{
-        margin-top:10px;
-        text-decoration: underline;
     }
     
  
@@ -337,8 +328,8 @@ display:none;
 }
     
     #tit-mobile {
-        font-size:16px;
-         line-height: 20px;
+        font-size:20px;
+        line-height: 24px;
         text-decoration: none;
         color:black;
         margin-top:5px;
@@ -346,8 +337,7 @@ display:none;
     
      #capt-mobile  {
         text-decoration: none;
-         font-size:16px;
-         line-height: 20px;
+         font-size:20px;
         color:black;
          font-style: italic;
          margin-top:1px;
@@ -393,7 +383,6 @@ canvas {
   position: absolute;
   visibility: hidden;
     border: 0px solid black;
-
 }
 
 
@@ -447,21 +436,16 @@ display:none;
   opacity: 0;
   background-color: #1C1C1C;
 
-
 }
-
-
 
 .img-capt:hover .overlay {
   opacity: 1;
-transition-duration: 0.1s;
+transition-duration: 0.3s;
     border: 0px solid #1C1C1C;
-
 }
 
 #progetti li:hover{
     z-index: 999;
-    
 }
 
 
@@ -522,14 +506,14 @@ transition-duration: 0.1s;
 border-radius:100%;
 width:65px;
 height: 65px;
-background-color:#0AFF00;
+background-color:#0014FF;
 margin: 0 auto;
 border: 0px solid white;
 color:white;
 }
 
 #ball-radius-m:hover {
-    background-color:#1c1c1c;
+    background-color:#fc0fc0;
     color:white;
 }
 
@@ -553,7 +537,7 @@ color:white;
 }
 
 #ball-radius-m:hover {
-    background-color: #1c1c1c;
+    background-color: #1C1C1C;;
     border: 0px solid white;
     color:white;
 }
@@ -564,7 +548,7 @@ width:65px;
 height: 65px;
 margin: 0 auto;
 border: 0px solid white;
-background-color: #ff00ec; 
+background-color: #0014FF; 
 color:white;
 }
 
@@ -638,14 +622,14 @@ border: 0px solid black;
 #ball-radius:hover {
  color:white;
     background-color:#1C1C1C;
-    transition-duration: 0.1s;
+    transition-duration: 0.3s;
     
 }
 
 #ball-radius-cv:hover {
    color:white;
     background-color:#1C1C1C;
-    transition-duration: 0.1s;
+    transition-duration: 0.3s;
 }
 
 #ball-radius-cv{
@@ -665,55 +649,44 @@ color:white;
 
 
 footer {
-
-    line-height: 24px;
     z-index: 999;
-    font-size:20px;
+    
+    line-height: 25px;
     margin-left:0px;
     padding-left:20px;
     bottom: 0;
-    padding-bottom:20px;
+    padding-bottom:15px;
+    padding-top:15px;
     position:fixed;
     max-width: 100%;
     margin-bottom:0px;
     margin-right:0px;
-    text-align: left;
+    text-align: center;
+   
     background-color:white;
     left:0;
     right:0;
-    padding-top:20px;
 -webkit-box-shadow: 0px -12px 49px -12px rgba(31,31,31,1);
 -moz-box-shadow: 0px -12px 49px -12px rgba(31,31,31,1);
 box-shadow: 0px -12px 49px -12px rgba(31,31,31,1);
 }
+
+
 
 #p-email{
-margin-top:10px;
+    margin-top:15px;
 }
 
-#descr {
-    width:95%;
-
+.img-mobile img:hover{
+-webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.49);
+box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.49);
+    
 }
 
-
-
-
-.progetti-mobile {
--webkit-box-shadow: 0px -12px 49px -12px rgba(31,31,31,1);
--moz-box-shadow: 0px -12px 49px -12px rgba(31,31,31,1);
-box-shadow: 0px -12px 49px -12px rgba(31,31,31,1);
-    padding-top:10px;
-    margin:0 auto;
-    margin-top:250px;
-    padding-left:15px;
-    padding-right:15px;
-    padding-bottom:15px;
-    background-color: white;
-    z-index: 999;
-}
-
-#last-img-mobile {
-    margin-bottom:10px;
+.img-mobile video:hover{
+ -webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.49);
+-moz-box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.49);
+box-shadow: 0px 0px 16px 2px rgba(0,0,0,0.49);
 }
 
