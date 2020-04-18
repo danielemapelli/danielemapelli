@@ -1,21 +1,25 @@
 @media only screen and (min-width:1600px) {
-
-
-
-
-   
    
     div.prj-contenuto {
         margin-top:380px;
     }
 
+     div#contenuto-corto {
+    margin-top:350px;
+}
+    
     .prj-contenuto-text {
         column-count: 2;
         column-gap: 40px;
+        
+    }
+    
+    p.prj-contenuto-text { 
+    width:70%;
     }
     
     h1#name-prj {
-        width:20%;
+        width:30%;
 
     }
     
@@ -215,8 +219,17 @@ margin-top:10px;
     max-width:100%;
     padding-left: 15px;
     padding-right: 15px;
+       
+        
 }
 
+    div#contenuto-corto {
+    margin-top:0px;
+}
+    
+    div.prj-contenuto {
+        margin-top:0px;
+    }
     #header-mobile {
         display:none;
     }
@@ -237,7 +250,7 @@ margin-top:10px;
     div#allinea {
         padding-left: 20px;
             padding-top:95px;
-        position:absolute;
+        position:relative;
     }
     h1#home-h {
         font-size: 25px;
@@ -328,6 +341,7 @@ margin-top:10px;
 }
  body{
       background-color: white;
+     
     }
    
     
@@ -336,7 +350,7 @@ margin-top:10px;
 
 @media only screen and (max-width: 767.98px) {
      body{
-      background-color: #ff1a00;
+      background-color: #ff3600;
     }
     
     #header-mobile {
@@ -501,24 +515,24 @@ header a{
     max-width: 100%;
 }
 
-.prj-contenuto {
-max-width:100%;
-margin-top:430px;
-    margin-bottom:80px;
 
-    
-background-color: white;
+
+.prj-contenuto {
+    max-width:100%;
+    margin-top:600px;
+    margin-bottom:80px;
+    background-color: white;
     float:left;
--webkit-box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
--moz-box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
-box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
+    -webkit-box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
+    -moz-box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
+    box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
     position:relative;
     z-index: 0;
-    
-    
+    }
 
+#contenuto-corto {
+    margin-top:420px;
 }
-
 
 
 #home-h {
@@ -537,18 +551,6 @@ box-shadow: 0px -2px 34px 0px rgba(33,33,33,1);
    
 }
 
-#next-h {
-   font-size: 35px;
-    width:100%;
-    text-align: left;
-    padding-top:20px;
-    padding-left:592px;
-    position: fixed;
-    padding-bottom:20px;
-    
-    z-index: 999;
-    
-}
 
 header {
     max-width: 100%;
@@ -561,6 +563,7 @@ header {
      padding-left:25px;
     padding-right:30px;
     padding-top:90px;
+    padding-bottom: 20px;
     z-index: -1;
     position: fixed;
     color:black;
@@ -578,12 +581,14 @@ header {
     padding-top:30px;
     position: fixed;
     bottom:0;
-    z-index: -1;
+    z-index: -2;
     color:black;
-    background-color:#ff1a00;
+    background-color:#ff3600;
     
 }
 
 
-
+a {
+    cursor: url(cursor/pointer.png), pointer;
+}
 
